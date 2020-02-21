@@ -22,7 +22,7 @@ hbs.registerPartials(partialsPath)
 app.get('', (req, res) => {
     res.render('index', {
         name: 'Yaakov Diamond',
-        title: ' this is the home page for my website'
+        title: ' HAVE A GREAT SHABBOS!'
     })
 })
 app.get('/weather', (req, res) => {
@@ -89,7 +89,7 @@ app.get('/products', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('helperror', {
         title: 'help article not found',
-        name: 'Yaakov Diamond'
+        name: 'Yaako Diamond'
     })
 })
 
