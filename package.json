@@ -1,0 +1,24 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaakov613/node-weather-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yaakov613/node-weather-website/issues"
+  },
+  "homepage": "https://github.com/Yaakov613/node-weather-website#readme"
+}
