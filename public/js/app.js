@@ -16,7 +16,9 @@ weatherForm.addEventListener('submit',(e)=>{
             messageOne.textContent=(data.error)
         }
         else messageOne.textContent=data.location
-            messageTwo.textContent= (`${data.Forecast.summary}  While the current temperture is ${data.Forecast.currentTemp}C°`)
+            messageTwo.textContent= (`${data.Forecast.summary}  While the current temperture is ${data.Forecast.currentTemp}C°
+             Dont Forget candle lighting this week for Parshas Mishpatim is 6:28pm! Its getting earlier!!!  Shabbos comes out at 7:35pm!!
+             The yeshiva has there anniversary shabbos this week and it is also parshas shkalim!`)
 
 
     })
