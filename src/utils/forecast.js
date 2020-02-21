@@ -6,7 +6,7 @@ const forecast = ((latitude, longitude
     , callback) => {
 
     const url = `https://api.darksky.net/forecast/024dfb1d2b9ed8fc8ef4210bb8bd3c1c/`
-    const urlToCall = `${url}${latitude},${longitude}`
+    const urlToCall = `${url}${latitude},${longitude}/?units=si`
 
     request({
         url: urlToCall,
