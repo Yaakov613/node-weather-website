@@ -16,7 +16,8 @@ weatherForm.addEventListener('submit',(e)=>{
             messageOne.textContent=(data.error)
         }
         else messageOne.textContent=data.location
-            messageTwo.textContent= (`${data.Forecast.summary}  While the current temperture is ${data.Forecast.currentTemp}C°`)+
+            messageTwo.textContent= (`${data.Forecast.summary}  While the current temperture is ${data.Forecast.currentTemp}C°. The expected high for today is ${data.Forecast.temperatureHigh},
+            and the expected ;ow for today is ${data.Forecast.temperatureLow}`)+
             (`Have a beautiful week!! Hashem Loves you!!
              `)
 
